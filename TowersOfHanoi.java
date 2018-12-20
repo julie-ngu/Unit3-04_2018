@@ -55,6 +55,7 @@ public class TowersOfHanoi {
 	}
 	
 	public static void printMoves (int num, String startPole, String endPole) {
+		// method for printing out moves
 		System.out.println("Move disk " + num + " from " + startPole + " to " + endPole + ".");
 	}
 	
